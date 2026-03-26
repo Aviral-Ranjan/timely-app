@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #121212;
+    text-align: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+.timer-logic{
+    text-align: center;
+}
+.main-timer{
+    display: none;
+}
+#timer{
+    color: #fff;
+    font-size: 65px;
+}
+.start-button{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    background-color: #121212;
+    border: rgb(213, 213, 213);
+    border-style: solid;
+    border-width: 0.75px;
+    color: rgb(213, 213, 213);
+    font-family: sans-serif;
+    border-radius: 90px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.start-button:hover{
+    background-color:rgb(213, 213, 213);
+    color: #121212;
+}
+.lower-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    background-color: #121212;
+    border: rgb(213, 213, 213);
+    border-style: solid;
+    border-width: 0.75px;
+    color: rgb(213, 213, 213);
+    font-family: sans-serif;
+    border-radius: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+.lower-button:hover{
+    background-color:rgb(213, 213, 213);
+    color: #121212;
+}
+
+#task-input{
+    background-color: #121212;
+    border: none;
+    /* text-align: center; */
+    color: rgb(213, 213, 213);
+    outline: none; 
+    font-size:15px
+}
+
+.tasks{
+    display: none;
+}
+
+ul{
+    list-style:disc;
+    color: rgb(213, 213, 213);
+    font-size: 20px;
+}
+
+.addBtn{
+    margin: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+    margin: 10px;
+    align-content: start;
+    display: inline-block;
+}
+li{
+    margin-bottom: 10px;
+}
+
+.git-logo{
+    display: flex;
+    justify-content: end;
+    margin: 15px;
+    color: #fff;
+}
+.github-link{
+    color:rgb(213, 213, 213);
+}
